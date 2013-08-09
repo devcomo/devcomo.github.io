@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[dev/como]]></title>
-  <link href="http://devcomo.github.io/atom.xml" rel="self"/>
-  <link href="http://devcomo.github.io/"/>
-  <updated>2013-08-09T14:47:06-05:00</updated>
-  <id>http://devcomo.github.io/</id>
+  <link href="http://devcomo.com/atom.xml" rel="self"/>
+  <link href="http://devcomo.com/"/>
+  <updated>2013-08-09T14:52:26-05:00</updated>
+  <id>http://devcomo.com/</id>
   <author>
     <name><![CDATA[Clint, Brian, or James]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[August 21st, 2013 - Raspberry Pi, Python, and Planetary Automation]]></title>
-    <link href="http://devcomo.github.io/blog/2013/08/09/august-21st/"/>
+    <link href="http://devcomo.com/blog/2013/08/09/august-21st/"/>
     <updated>2013-08-09T14:20:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2013/08/09/august-21st</id>
+    <id>http://devcomo.com/blog/2013/08/09/august-21st</id>
     <content type="html"><![CDATA[<p>The August meet up is on <em>Wednesday, August 21st</em>, hosted at <a href="https://maps.google.com/maps?q=Reynolds+Journalism+Institute&amp;hl=en&amp;cid=4331821347201969180&amp;gl=US&amp;t=m&amp;z=16&amp;iwloc=A">Reynolds Journalism Institute</a>.  The talks start at 6:00. We meet in the glass room right in the main lobby.</p>
 
 <h2>Raspberry Pi, Python, and Planetary Automation.</h2>
@@ -33,9 +33,9 @@ Our computers are smart. Our power outlets are dumb. We’ll fix that by using a
 
 <div class="about-speaker clearfix">
 
-<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.github.io/photos/doug-royal.jpg' />
+<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.com/photos/doug-royal.jpg' />
 
-<a href='http://dougroyal.com/'>Doug Royal</a> <a href='http://twitter.com/dougroyal'>@dougroyal</a> is a software developer at CARFAX by day, and an electronic hobbyist at night. In his spare time he writes and illustrates <a href="FallaciousLogic.net">FallaciousLogic.net</a>.
+<a href='http://dougroyal.com/'>Doug Royal</a> <a href='http://twitter.com/dougroyal'>@dougroyal</a> is a software developer at CARFAX by day, and an electronic hobbyist at night. In his spare time he writes and illustrates <a href="http://FallaciousLogic.net">FallaciousLogic.net</a>.
 </div>
 
 
@@ -50,9 +50,9 @@ Our computers are smart. Our power outlets are dumb. We’ll fix that by using a
   
   <entry>
     <title type="html"><![CDATA[July 17th, 2013 - Application monitoring and Objective C]]></title>
-    <link href="http://devcomo.github.io/blog/2013/07/11/july-17th/"/>
+    <link href="http://devcomo.com/blog/2013/07/11/july-17th/"/>
     <updated>2013-07-11T20:36:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2013/07/11/july-17th</id>
+    <id>http://devcomo.com/blog/2013/07/11/july-17th</id>
     <content type="html"><![CDATA[<p>The July meet up is on <em>Wednesday, July 17th</em>, hosted at <a href="https://maps.google.com/maps?q=Reynolds+Journalism+Institute&amp;hl=en&amp;cid=4331821347201969180&amp;gl=US&amp;t=m&amp;z=16&amp;iwloc=A">Reynolds Journalism Institute</a>.  The talks start at 6:00. We meet in the glass room right in the main lobby.</p>
 
 <h2>Using New Relic For Server Monitoring</h2>
@@ -68,7 +68,7 @@ Setting up an extensive monitoring solution for your application can be time con
 
 <div class="about-speaker clearfix">
 
-<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.github.io/photos/james-carr.jpg' />
+<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.com/photos/james-carr.jpg' />
 
 <a href='https://twitter.com/jamescarr'>James Carr</a> is a DevOps Engineer at <a href='http://bit.ly/TWYeij'>Zapier</a> and spends his time automating
 infrastructure provisioning with puppet and occasionally hacks on
@@ -114,9 +114,9 @@ We will look at some modern Objective-C techniques (ARC, Blocks) and some tradit
   
   <entry>
     <title type="html"><![CDATA[June 19th, 2013 - SEO friendly single page web applications]]></title>
-    <link href="http://devcomo.github.io/blog/2013/06/05/june-19th/"/>
+    <link href="http://devcomo.com/blog/2013/06/05/june-19th/"/>
     <updated>2013-06-05T11:58:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2013/06/05/june-19th</id>
+    <id>http://devcomo.com/blog/2013/06/05/june-19th</id>
     <content type="html"><![CDATA[<p>The June meet up is on <em>Wednesday, June 19th</em>, hosted at <a href="https://maps.google.com/maps?q=Reynolds+Journalism+Institute&amp;hl=en&amp;cid=4331821347201969180&amp;gl=US&amp;t=m&amp;z=16&amp;iwloc=A">Reynolds Journalism Institute</a>.  The talks start at 6:00. We meet in the glass room right in the main lobby.</p>
 
 <h2>SEO friendly single page web applications</h2>
@@ -132,7 +132,7 @@ Discussing different approaches to creating a single page web application that c
 
 <div class="about-speaker clearfix">
 
-<img style="float:right; margin-bottom: 10px; margin-left: 10px;" width="150" src='http://devcomo.github.io/photos/nathan-stitt.jpg' />
+<img style="float:right; margin-bottom: 10px; margin-left: 10px;" width="150" src='http://devcomo.com/photos/nathan-stitt.jpg' />
 
 <a href="http://argosity.com/">Nathan Stitt</a> (<a href="http://github.com/nathanstitt">github profile</a>) is a local software developer who operates a single person software consultancy.   He primarily writes in Ruby, Javascript, and Objective-C, but has dabbled in most others.  He&#8217;s currently hacking on his uber app, ledger buddy.
 
@@ -150,9 +150,9 @@ Discussing different approaches to creating a single page web application that c
   
   <entry>
     <title type="html"><![CDATA[May 15th, 2013]]></title>
-    <link href="http://devcomo.github.io/blog/2013/05/08/may-15th/"/>
+    <link href="http://devcomo.com/blog/2013/05/08/may-15th/"/>
     <updated>2013-05-08T11:35:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2013/05/08/may-15th</id>
+    <id>http://devcomo.com/blog/2013/05/08/may-15th</id>
     <content type="html"><![CDATA[<p>The May meet up is on <em>Wednesday, May 15th</em>, hosted at <a href="https://maps.google.com/maps?q=Reynolds+Journalism+Institute&amp;hl=en&amp;cid=4331821347201969180&amp;gl=US&amp;t=m&amp;z=16&amp;iwloc=A">Reynolds Journalism Institute</a>.  The talks start at 6:00. We meet in the glass room right in the main lobby.</p>
 
 <h2>Web Scraping with Python and Scrapy &mdash; for Great Justice!</h2>
@@ -166,7 +166,7 @@ Web scraping can save infinite hours of valuable human-time. I will be giving an
 
 <div class="about-speaker clearfix">
 
-<img style="float:right;margin-bottom: 10px;" width="150" src='http://devcomo.github.io/photos/ceili-cornelison.png' />
+<img style="float:right;margin-bottom: 10px;" width="150" src='http://devcomo.com/photos/ceili-cornelison.png' />
 
 <a href='http://www.ceilicornelison.com/'>Ceili Cornelison</a> (<a href='https://twitter.com/cornelisonc'>@cornelisonc</a>) spends her days developing web applications for Delta Systems Group in Columbia, MO. She works primarily in PHP/HTML and CSS/JavaScript, and spends her nights contemplating open source development, spanish reds, emerging web technologies and the future of all mankind.
 </div>
@@ -181,7 +181,7 @@ Web scraping can save infinite hours of valuable human-time. I will be giving an
 
 <div class="about-sponsor clearfix">
 
-<img style="float:left;margin-bottom: 10px; margin-right: 10px; height: 100px;" src='http://devcomo.github.io/photos/pyrocms.png' />
+<img style="float:left;margin-bottom: 10px; margin-right: 10px; height: 100px;" src='http://devcomo.com/photos/pyrocms.png' />
 
 <a href='http://pyrocms.com'>PyroCMS</a> is an MVC PHP Content Management System built to be easy to use, theme and develop with. It is free and <a href='https://github.com/pyrocms/pyrocms'>open-source</a> and is used by individuals and organizations of all sizes around the world.
 
@@ -195,9 +195,9 @@ Web scraping can save infinite hours of valuable human-time. I will be giving an
   
   <entry>
     <title type="html"><![CDATA[April 17th, 2013 - Cloud Automation and Grails]]></title>
-    <link href="http://devcomo.github.io/blog/2013/04/10/april-17th/"/>
+    <link href="http://devcomo.com/blog/2013/04/10/april-17th/"/>
     <updated>2013-04-10T08:45:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2013/04/10/april-17th</id>
+    <id>http://devcomo.com/blog/2013/04/10/april-17th</id>
     <content type="html"><![CDATA[<p>The April meet up is on <em>Wednesday, April 17th</em>, hosted at <a href="https://maps.google.com/maps?q=Reynolds+Journalism+Institute&amp;hl=en&amp;cid=4331821347201969180&amp;gl=US&amp;t=m&amp;z=16&amp;iwloc=A">Reynolds Journalism Institute</a>.  The talks start at 6:00. We meet in the glass room right in the main lobby.</p>
 
 <h2>Cloud Automation Like a Boss</h2>
@@ -213,7 +213,7 @@ There&#8217;s a plethora of tools out there for automating your infrastructure. 
 
 <div class="about-speaker clearfix">
 
-<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.github.io/photos/james-carr.jpg' />
+<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.com/photos/james-carr.jpg' />
 
 <a href='https://twitter.com/jamescarr'>James Carr</a> is a DevOps Engineer at <a href='http://bit.ly/TWYeij'>Zapier</a> and spends his time automating
 infrastructure provisioning with puppet and occasionally hacks on
@@ -240,7 +240,7 @@ Brief overview of Groovy and Grails and what some of the advantagesare over just
 
 <div class="about-speaker clearfix">
 
-<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.github.io/photos/shane-davenport.jpg' />
+<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.com/photos/shane-davenport.jpg' />
 
 
 Shane Davenport <a href='https://twitter.com/shanewdavenport'>@shanewdavenport</a> works at <a href='http://carfax.com'>CARFAX</a> were he uses Test Driven Development in an Agile work enviroment to deliver software solutions to customers. Shane started programing with Visual Basic and then moved into .NETin 2003 and now Java and Groovy. He has always had an interest inseeing how technology makes our lives easier, more fulfilling, and creating software solutions that deliver an excellent experience to the end user.
@@ -266,9 +266,9 @@ Shane Davenport <a href='https://twitter.com/shanewdavenport'>@shanewdavenport</
   
   <entry>
     <title type="html"><![CDATA[March 20th, 2013 - Phono, WebRTC, and Rails security]]></title>
-    <link href="http://devcomo.github.io/blog/2013/03/14/march-20th/"/>
+    <link href="http://devcomo.com/blog/2013/03/14/march-20th/"/>
     <updated>2013-03-14T08:38:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2013/03/14/march-20th</id>
+    <id>http://devcomo.com/blog/2013/03/14/march-20th</id>
     <content type="html"><![CDATA[<p>The March meet up is on <em>Wednesday, March 20th</em>, hosted at <a href="https://maps.google.com/maps?q=Reynolds+Journalism+Institute&amp;hl=en&amp;cid=4331821347201969180&amp;gl=US&amp;t=m&amp;z=16&amp;iwloc=A">Reynolds
 Journalism Institute</a>. Show up around 5:30pm for networking/food. The talks
 start at 6. We meet in the glass room right in the main lobby.</p>
@@ -313,9 +313,9 @@ Ruby&rsquo;s okay too.</p>
   
   <entry>
     <title type="html"><![CDATA[February 20th, 2013 - Heroku and Vagrant]]></title>
-    <link href="http://devcomo.github.io/blog/2013/02/08/february-2013-heroku-and-vagrant/"/>
+    <link href="http://devcomo.com/blog/2013/02/08/february-2013-heroku-and-vagrant/"/>
     <updated>2013-02-08T00:00:00-06:00</updated>
-    <id>http://devcomo.github.io/blog/2013/02/08/february-2013-heroku-and-vagrant</id>
+    <id>http://devcomo.com/blog/2013/02/08/february-2013-heroku-and-vagrant</id>
     <content type="html"><![CDATA[<p>February&rsquo;s meetup is on <em>Wednesday, February 20th</em>.  It will be hosted at <a href="https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=reynold+journalism+institute&amp;amp;aq=&amp;amp;sll=38.946494,-92.330839&amp;amp;sspn=0.426685,0.617294&amp;amp;vpsrc=6&amp;amp;t=h&amp;amp;ie=UTF8&amp;amp;hq=reynold+journalism+institute&amp;amp;hnear=&amp;amp;ll=38.947433,-92.327734&amp;amp;spn=0.001179,0.001206&amp;amp;z=20&amp;amp;iwloc=A&amp;amp;cid=4331821347201969180">Reynolds Journalism Institute</a>. Come by around 5:30pm &ndash; the talks start at 6. We meet in the glass room right in the main lobby.</p>
 
 <h2>Introduction To Heroku</h2>
@@ -331,7 +331,7 @@ Heroku is a Platform as a Service (PaaS): running your apps in the clouds with e
 
 <div class="about-speaker clearfix">
 
-<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.github.io/photos/clint-shryock.jpeg' />
+<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.com/photos/clint-shryock.jpeg' />
 
 <a href="http://twitter.com/ctshryock">Clint Shryock</a> is a born Columbia native who currently telecommutes as a software engineer for Heroku, Inc, in San Francisco. He works in Ruby with Rails, Sinatra, and does some CLI tooling when he can. He has been writing web apps professionally since 2004. At night he gallivants between Ruby, Cocoa, and Riak hacking.
 
@@ -369,7 +369,7 @@ virtual machines to test clustering out.
 
 <div class="about-speaker clearfix">
 
-<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.github.io/photos/james-carr.jpg' />
+<img style="float:right;margin-bottom: 10px;" width="200" src='http://devcomo.com/photos/james-carr.jpg' />
 
 <a href='https://twitter.com/jamescarr'>James Carr</a> is a DevOps Engineer at <a href='http://bit.ly/TWYeij'>Zapier</a> and spends his time automating
 infrastructure provisioning with puppet and occasionally hacks on
@@ -395,9 +395,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[Notice Anything Different?]]></title>
-    <link href="http://devcomo.github.io/blog/2013/01/16/january-2013-notice-anything-different/"/>
+    <link href="http://devcomo.com/blog/2013/01/16/january-2013-notice-anything-different/"/>
     <updated>2013-01-16T00:00:00-06:00</updated>
-    <id>http://devcomo.github.io/blog/2013/01/16/january-2013-notice-anything-different</id>
+    <id>http://devcomo.com/blog/2013/01/16/january-2013-notice-anything-different</id>
     <content type="html"><![CDATA[<h2>Our Group Name Has Changed To dev/como</h2>
 
 <p>After some discussion on our mailing list, we have decided to rename <strong>ComoRichWeb</strong> to <strong>dev/como</strong>!  Or, more formally, DevCoMO.</p>
@@ -434,9 +434,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[January 2013 - Refactoring and Local Startup BottlCap]]></title>
-    <link href="http://devcomo.github.io/blog/2013/01/01/january-2013-refactoring-and-local-startup-bo/"/>
+    <link href="http://devcomo.com/blog/2013/01/01/january-2013-refactoring-and-local-startup-bo/"/>
     <updated>2013-01-01T00:00:00-06:00</updated>
-    <id>http://devcomo.github.io/blog/2013/01/01/january-2013-refactoring-and-local-startup-bo</id>
+    <id>http://devcomo.com/blog/2013/01/01/january-2013-refactoring-and-local-startup-bo</id>
     <content type="html"><![CDATA[<h1>ComoRichWeb January 16,&nbsp;<em>2013</em></h1>
 
 
@@ -486,9 +486,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[December 2012: Zapier Developer Platform and Book'd]]></title>
-    <link href="http://devcomo.github.io/blog/2012/11/27/december-2012-zapier-developer-platform-and-b/"/>
+    <link href="http://devcomo.com/blog/2012/11/27/december-2012-zapier-developer-platform-and-b/"/>
     <updated>2012-11-27T00:00:00-06:00</updated>
-    <id>http://devcomo.github.io/blog/2012/11/27/december-2012-zapier-developer-platform-and-b</id>
+    <id>http://devcomo.com/blog/2012/11/27/december-2012-zapier-developer-platform-and-b</id>
     <content type="html"><![CDATA[<h1>ComoRichWeb December 12th Meetup</h1>
 
 
@@ -556,9 +556,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[November 2012: Stripe Capture the Flag and Ruby On Rails]]></title>
-    <link href="http://devcomo.github.io/blog/2012/11/12/november-2012-stripe-capture-the-flag-and-rub/"/>
+    <link href="http://devcomo.com/blog/2012/11/12/november-2012-stripe-capture-the-flag-and-rub/"/>
     <updated>2012-11-12T00:00:00-06:00</updated>
-    <id>http://devcomo.github.io/blog/2012/11/12/november-2012-stripe-capture-the-flag-and-rub</id>
+    <id>http://devcomo.com/blog/2012/11/12/november-2012-stripe-capture-the-flag-and-rub</id>
     <content type="html"><![CDATA[<p><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">November&#8217;s meetup is on&nbsp;<strong>Wednesday, November 14th</strong>! It will be hosted at RJI (<a href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=reynold+journalism+institute&amp;aq=&amp;sll=38.946494,-92.330839&amp;sspn=0.426685,0.617294&amp;vpsrc=6&amp;t=h&amp;ie=UTF8&amp;hq=reynold+journalism+institute&amp;hnear=&amp;ll=38.947433,-92.327734&amp;spn=0.001179,0.001206&amp;z=20&amp;iwloc=A&amp;cid=4331821347201969180">directions</a>). C</em><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">ome by around&nbsp;<strong>5:30pm</strong>&nbsp;- the talks start at 6</em><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">.</em></p>
 
 
@@ -599,9 +599,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[October 2012: Massively Scaling to Millions of Players: A League of Legends Story]]></title>
-    <link href="http://devcomo.github.io/blog/2012/10/17/october-2012-massively-scaling-to-millions-of/"/>
+    <link href="http://devcomo.com/blog/2012/10/17/october-2012-massively-scaling-to-millions-of/"/>
     <updated>2012-10-17T00:00:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2012/10/17/october-2012-massively-scaling-to-millions-of</id>
+    <id>http://devcomo.com/blog/2012/10/17/october-2012-massively-scaling-to-millions-of</id>
     <content type="html"><![CDATA[<p style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; font-family: verdana, arial, helvetica, sans-serif; line-height: 18px; color: #333333;"><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">October&#8217;s meetup is on&nbsp;<strong>Wednesday, October 24th</strong>! Here&#8217;s the gist: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). The talk will start around 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></p>
 
 
@@ -627,9 +627,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[September 2012 - ComoRichWeb Workshop Night!]]></title>
-    <link href="http://devcomo.github.io/blog/2012/08/29/september-2012-comorichweb-workshop-night/"/>
+    <link href="http://devcomo.com/blog/2012/08/29/september-2012-comorichweb-workshop-night/"/>
     <updated>2012-08-29T00:00:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2012/08/29/september-2012-comorichweb-workshop-night</id>
+    <id>http://devcomo.com/blog/2012/08/29/september-2012-comorichweb-workshop-night</id>
     <content type="html"><![CDATA[<h2>September 26th, 2012 (that&#8217;s a Wednesday)</h2>
 
 
@@ -643,9 +643,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[August 2012: Getting Started with Django and Lightning Talks]]></title>
-    <link href="http://devcomo.github.io/blog/2012/08/09/august-2012-getting-started-with-django-and-l/"/>
+    <link href="http://devcomo.com/blog/2012/08/09/august-2012-getting-started-with-django-and-l/"/>
     <updated>2012-08-09T00:00:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2012/08/09/august-2012-getting-started-with-django-and-l</id>
+    <id>http://devcomo.com/blog/2012/08/09/august-2012-getting-started-with-django-and-l</id>
     <content type="html"><![CDATA[<p><em>August&#8217;s meetup is on&nbsp;<strong>Wednesday, August 15th</strong>! Here&#8217;s the plan: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></p>
 
 
@@ -670,9 +670,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[July 2012 - Capistrano and Sinatra]]></title>
-    <link href="http://devcomo.github.io/blog/2012/07/06/july-2012-capistrano-and-sinatra/"/>
+    <link href="http://devcomo.com/blog/2012/07/06/july-2012-capistrano-and-sinatra/"/>
     <updated>2012-07-06T00:00:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2012/07/06/july-2012-capistrano-and-sinatra</id>
+    <id>http://devcomo.com/blog/2012/07/06/july-2012-capistrano-and-sinatra</id>
     <content type="html"><![CDATA[<div><em>July&#8217;s meetup is on&nbsp;<strong>Wednesday, July 18th</strong>! Here&#8217;s the deal: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></div>
 
 
@@ -696,9 +696,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[June 2012 - Startup Q & A and Chrome Developer Tools!]]></title>
-    <link href="http://devcomo.github.io/blog/2012/06/07/june-2012-startup-qampa-and-chrome-developer/"/>
+    <link href="http://devcomo.com/blog/2012/06/07/june-2012-startup-qampa-and-chrome-developer/"/>
     <updated>2012-06-07T00:00:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2012/06/07/june-2012-startup-qampa-and-chrome-developer</id>
+    <id>http://devcomo.com/blog/2012/06/07/june-2012-startup-qampa-and-chrome-developer</id>
     <content type="html"><![CDATA[<div><em> Junes&#8217;s meetup is on <strong>Wednesday, June 20th</strong>!  Here&#8217;s the deal: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></div>
 
 
@@ -725,9 +725,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[CoMO Hackathon - Hack For Good]]></title>
-    <link href="http://devcomo.github.io/blog/2012/05/23/columbia-mo-hackathon-hack-for-good/"/>
+    <link href="http://devcomo.com/blog/2012/05/23/columbia-mo-hackathon-hack-for-good/"/>
     <updated>2012-05-23T00:00:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2012/05/23/columbia-mo-hackathon-hack-for-good</id>
+    <id>http://devcomo.com/blog/2012/05/23/columbia-mo-hackathon-hack-for-good</id>
     <content type="html"><![CDATA[<p><em>At CoMORichWeb we love local tech events, so we wanted to share this:</em></p>
 
 
@@ -744,9 +744,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[May Meetup - PhoneGap and Task Queues!]]></title>
-    <link href="http://devcomo.github.io/blog/2012/04/18/may-meetup-phonegap-and-task-queues/"/>
+    <link href="http://devcomo.com/blog/2012/04/18/may-meetup-phonegap-and-task-queues/"/>
     <updated>2012-04-18T00:00:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2012/04/18/may-meetup-phonegap-and-task-queues</id>
+    <id>http://devcomo.com/blog/2012/04/18/may-meetup-phonegap-and-task-queues</id>
     <content type="html"><![CDATA[<div><em> May&#8217;s meetup is on <strong>Wednesday, May 16th</strong>!  Here&#8217;s the scoop: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></div>
 
 
@@ -772,9 +772,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[April Meetup - Newsy and Pushbutton Web]]></title>
-    <link href="http://devcomo.github.io/blog/2012/03/27/april-meetup-newsy-and-pushbutton-web/"/>
+    <link href="http://devcomo.com/blog/2012/03/27/april-meetup-newsy-and-pushbutton-web/"/>
     <updated>2012-03-27T00:00:00-05:00</updated>
-    <id>http://devcomo.github.io/blog/2012/03/27/april-meetup-newsy-and-pushbutton-web</id>
+    <id>http://devcomo.com/blog/2012/03/27/april-meetup-newsy-and-pushbutton-web</id>
     <content type="html"><![CDATA[<div>
 <div><em>April&#8217;s meetup is on&nbsp;<strong>Wednesday, April 18th</strong>! &nbsp;You know the drill: it&nbsp;will be hosted at our usual&nbsp;Museao&nbsp;location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). &nbsp;Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></div>
 <p />
@@ -812,9 +812,9 @@ Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for
   
   <entry>
     <title type="html"><![CDATA[March Meetup: Hadoop+HBase and Backbone.js]]></title>
-    <link href="http://devcomo.github.io/blog/2012/03/07/march-meetup-hadoophbase-and-backbonejs/"/>
+    <link href="http://devcomo.com/blog/2012/03/07/march-meetup-hadoophbase-and-backbonejs/"/>
     <updated>2012-03-07T00:00:00-06:00</updated>
-    <id>http://devcomo.github.io/blog/2012/03/07/march-meetup-hadoophbase-and-backbonejs</id>
+    <id>http://devcomo.com/blog/2012/03/07/march-meetup-hadoophbase-and-backbonejs</id>
     <content type="html"><![CDATA[<p><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">We have a great meetup planned this month for&nbsp;</span><strong style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">Wednesday, March 21st</strong><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">! &nbsp;This will be hosted at our usual&nbsp;</span><strong style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">Museao</strong><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">&nbsp;location (</span><a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map" style="color: #660000; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">directions</a><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">). &nbsp;Talks start at 6:00pm but come by around 5:30pm or so if you would like to socialize beforehand.</span></p>
 
 
