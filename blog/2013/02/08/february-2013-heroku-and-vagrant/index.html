@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>February 20th, 2013 - Heroku and Vagrant - dev/como</title>
+  <meta name="author" content="Clint, Brian, or James">
+
+  
+  <meta name="description" content="February&rsquo;s meetup is on Wednesday, February 20th. It will be hosted at Reynolds Journalism Institute. Come by around 5:30pm &ndash; the talks &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://devcomo.github.io/blog/2013/02/08/february-2013-heroku-and-vagrant">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="dev/como" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37697522-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><img style="float:left;" src="/images/CoMo-transparent-small.png" />
+<hgroup>
+  <h1><a href="/">dev/como</a></h1>
+  
+    <h2>An open group connecting tech heads in Columbia, Missouri.  Meets on the third Wednesday of every month at 6PM.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:devcomo.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/sponsoring">Sponsoring</a></li>
+  <li><a href="/community">Community</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">February 20th, 2013 - Heroku and Vagrant</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-08T00:00:00-06:00" pubdate data-updated="true">Feb 8<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>February&rsquo;s meetup is on <em>Wednesday, February 20th</em>.  It will be hosted at <a href="https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=reynold+journalism+institute&amp;amp;aq=&amp;amp;sll=38.946494,-92.330839&amp;amp;sspn=0.426685,0.617294&amp;amp;vpsrc=6&amp;amp;t=h&amp;amp;ie=UTF8&amp;amp;hq=reynold+journalism+institute&amp;amp;hnear=&amp;amp;ll=38.947433,-92.327734&amp;amp;spn=0.001179,0.001206&amp;amp;z=20&amp;amp;iwloc=A&amp;amp;cid=4331821347201969180">Reynolds Journalism Institute</a>. Come by around 5:30pm &ndash; the talks start at 6. We meet in the glass room right in the main lobby.</p>
+
+<h2>Introduction To Heroku</h2>
+
+<h3>Clint Shryock</h3>
+
+<blockquote>
+Heroku is a Platform as a Service (PaaS): running your apps in the clouds with ease and a lot of purple. We&#8217;ll see how to create apps on Heroku and scale them, and get a brief intro into how things work.
+</blockquote>
+
+
+
+
+<div class="about-speaker clearfix">
+
+<img style="float:right;margin-bottom: 10px;" width="200" src='/photos/clint-shryock.jpeg' />
+
+<a href="http://twitter.com/ctshryock">Clint Shryock</a> is a born Columbia native who currently telecommutes as a software engineer for Heroku, Inc, in San Francisco. He works in Ruby with Rails, Sinatra, and does some CLI tooling when he can. He has been writing web apps professionally since 2004. At night he gallivants between Ruby, Cocoa, and Riak hacking.
+
+</div>
+
+
+
+
+<hr style='clear: both;' />
+
+
+<h2>Being a Vagrant for Fun and Profit</h2>
+
+<h3>James Carr</h3>
+
+<blockquote>
+Virtualization is a must have these days for local development,
+whether you are wanting to test your chef or puppet manifests out in a
+local throw away environment or create a re-distributable virtual
+environment for others on your team to use.
+
+<br />
+
+<a href=' http://www.vagrantup.com/'>Vagrant</a> is a tool that
+allows you to create and configure lightweight, reproducible, and
+portable development environments with an extremely easy to use
+interface written in ruby. I&#8217;ll detail how to use vagrant to bootstrap
+new instances, use puppet for provisioning resources within a new
+virtual instance, and even how to use vagrant to boot up many small
+virtual machines to test clustering out.
+</blockquote>
+
+
+
+
+<div class="about-speaker clearfix">
+
+<img style="float:right;margin-bottom: 10px;" width="200" src='/photos/james-carr.jpg' />
+
+<a href='https://twitter.com/jamescarr'>James Carr</a> is a DevOps Engineer at <a href='http://bit.ly/TWYeij'>Zapier</a> and spends his time automating
+infrastructure provisioning with puppet and occasionally hacks on
+product development in Django and node.js.
+</div>
+
+
+
+
+<hr style='clear: both;' />
+
+
+<h2>Sponsors</h2>
+
+<h3>Heroku</h3>
+
+<div class="sponsors">
+Thanks this month to our sponsor <a href='http://www.heroku.com/'>Heroku</a> for picking up the food.  Come by and learn about how it could make your deployments easier!  We may even have some other goodies and door prizes.
+</div>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Brian Grinstead</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-08T00:00:00-06:00" pubdate data-updated="true">Feb 8<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://devcomo.github.io/blog/2013/02/08/february-2013-heroku-and-vagrant/" data-via="devcomo" data-counturl="http://devcomo.github.io/blog/2013/02/08/february-2013-heroku-and-vagrant/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/01/16/january-2013-notice-anything-different/" title="Previous Post: Notice Anything Different?">&laquo; Notice Anything Different?</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/03/14/march-20th/" title="Next Post: March 20th, 2013 - Phono, WebRTC, and Rails security">March 20th, 2013 - Phono, WebRTC, and Rails security &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/08/09/august-21st/">August 21st, 2013 - Raspberry Pi, Python, and Planetary Automation</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/07/11/july-17th/">July 17th, 2013 - Application monitoring and Objective C</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/05/june-19th/">June 19th, 2013 - SEO friendly single page web applications</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/08/may-15th/">May 15th, 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/10/april-17th/">April 17th, 2013 - Cloud Automation and Grails</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Clint, Brian, or James -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

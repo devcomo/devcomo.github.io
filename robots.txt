@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://devcomo.github.io/sitemap.xml 

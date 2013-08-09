@@ -1,0 +1,736 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>dev/como</title>
+  <meta name="author" content="Clint, Brian, or James">
+
+  
+  <meta name="description" content="November&#8217;s meetup is on&nbsp;Wednesday, November 14th! It will be hosted at RJI (directions). Come by around&nbsp;5:30pm&nbsp;- the talks start &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://devcomo.github.io/blog/page/2">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="dev/como" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37697522-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><img style="float:left;" src="/images/CoMo-transparent-small.png" />
+<hgroup>
+  <h1><a href="/">dev/como</a></h1>
+  
+    <h2>An open group connecting tech heads in Columbia, Missouri.  Meets on the third Wednesday of every month at 6PM.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:devcomo.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/sponsoring">Sponsoring</a></li>
+  <li><a href="/community">Community</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/11/12/november-2012-stripe-capture-the-flag-and-rub/">November 2012: Stripe Capture the Flag and Ruby on Rails</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-12T00:00:00-06:00" pubdate data-updated="true">Nov 12<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">November&#8217;s meetup is on&nbsp;<strong>Wednesday, November 14th</strong>! It will be hosted at RJI (<a href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=reynold+journalism+institute&amp;aq=&amp;sll=38.946494,-92.330839&amp;sspn=0.426685,0.617294&amp;vpsrc=6&amp;t=h&amp;ie=UTF8&amp;hq=reynold+journalism+institute&amp;hnear=&amp;ll=38.947433,-92.327734&amp;spn=0.001179,0.001206&amp;z=20&amp;iwloc=A&amp;cid=4331821347201969180">directions</a>). C</em><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">ome by around&nbsp;<strong>5:30pm</strong>&nbsp;- the talks start at 6</em><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">.</em></p>
+
+
+<p style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; font-family: verdana, arial, helvetica, sans-serif; line-height: 18px; color: #333333;"><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><br /></em></p>
+
+
+<div style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><span style="font-size: medium;"><strong><strong style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">Note: This month&#8217;s meetup is at the&nbsp;</strong><a href="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=reynold+journalism+institute&amp;aq=&amp;sll=38.946494,-92.330839&amp;sspn=0.426685,0.617294&amp;vpsrc=6&amp;t=h&amp;ie=UTF8&amp;hq=reynold+journalism+institute&amp;hnear=&amp;ll=38.947433,-92.327734&amp;spn=0.001179,0.001206&amp;z=20&amp;iwloc=A&amp;cid=4331821347201969180">Reynolds Journalism Institute</a>, in the same room we had our workshop night a few months back. &nbsp;The room is visible from the main lobby, with large glass windows. &nbsp;Walk in the front door, and keep going straight until you can&#8217;t anymore.</strong></span></div>
+
+
+<div style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">
+<p />
+<h2 style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">Stripe Capture The Flag</h2>
+<h3 style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><span style="font-family: Arial, Helvetica, sans-serif; line-height: normal;">By:</span><span style="font-family: verdana, arial, helvetica, sans-serif;"><span style="line-height: 18px;">&nbsp;</span></span><span style="font-family: arial, sans-serif; line-height: normal; color: #222222;">Ian Graves -&nbsp;</span><span style="font-weight: normal; color: #222222; font-family: arial, sans-serif;">University of Missouri, Center for High Assurance Computing</span></h3>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><span style="font-family: arial, sans-serif; line-height: normal; color: #222222;">About the talk:&nbsp;</span></p>
+<blockquote style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">
+<p><span style="color: #222222; font-family: arial, sans-serif;">The&nbsp;<a href="https://stripe.com/blog/capture-the-flag-20">Stripe Capture the Flag 2.0</a>&nbsp;contest&nbsp;<a href="https://stripe.com/blog/capturetheflag">was</a>&nbsp;a web-based&nbsp;</span><span style="color: #222222; font-family: arial, sans-serif;">security contest put on by Stripe, the new and awesome payment&nbsp;</span><span style="color: #222222; font-family: arial, sans-serif;">processor. &nbsp;The contest focused on important yet-frequently-</span><span style="color: #222222; font-family: arial, sans-serif;">overl</span><span style="color: #222222; font-family: arial, sans-serif;">ooked&nbsp;</span><span style="color: #222222; font-family: arial, sans-serif;">security issues with web applications including SQL injections, XSS.</span></p>
+<p><span style="color: #222222; font-family: arial, sans-serif;">The CTF consisted of nine challenges for participants to work through.&nbsp;</span><span style="color: #222222; font-family: arial, sans-serif;">I plan on giving an overview of the contest as a whole and giving a&nbsp;</span><span style="color: #222222; font-family: arial, sans-serif;">live demo of a selection of challenges, time permitting.</span></p>
+</blockquote>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><strong>About Ian</strong></p>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">Ian&nbsp;Graves is a&nbsp;<span style="text-decoration: line-through;">professional student</span>&nbsp;PhD&nbsp;student at the University of Missouri studying security&nbsp;vulnerabilities and their relation to compilation techniques. &nbsp;He&nbsp;spends most of his day writing Haskell and dealing with systems-level&nbsp;coding, but has been known to moonlight with Ruby and Rails.</p>
+<div>
+<h2 style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">Intro To Ruby On Rails</h2>
+<h3 style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><span style="font-family: Arial, Helvetica, sans-serif; line-height: normal;">By:</span><span style="font-family: verdana, arial, helvetica, sans-serif;"><span style="line-height: 18px;">&nbsp;</span></span><span style="font-family: arial, sans-serif; line-height: normal; color: #222222;">Joshua Smith<span style="font-weight: normal;"> -&nbsp;</span></span><span style="font-weight: normal; color: #222222; font-family: arial, sans-serif;">The Add Sheet!</span></h3>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">About the talk:&nbsp;</p>
+<blockquote>
+<p><span style="color: #222222; font-family: arial, sans-serif;">Ruby on Rails is an open source web framework for Ruby that allows for rapid development of web applications</span></p>
+</blockquote>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif;"><strong>About Joshua</strong></p>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif;"><a href="https://twitter.com/#!/enviable">Joshua Smith</a> is the lead developer at The Add Sheet. He manages the full-stack for the <a href="http://addsheet.com/" target="_blank">addsheet.com</a> Rails app. After hours, he dabbles in Backbone.js and iOS programming, usually including their integration with Rails.</p>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">&nbsp;</p>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><strong>Hope to see everyone at RJI this month!</strong></p>
+</div>
+<p />
+</div>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/10/17/october-2012-massively-scaling-to-millions-of/">October 2012: Massively Scaling to Millions of Players: A League of Legends Story</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-17T00:00:00-05:00" pubdate data-updated="true">Oct 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; font-family: verdana, arial, helvetica, sans-serif; line-height: 18px; color: #333333;"><em style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">October&#8217;s meetup is on&nbsp;<strong>Wednesday, October 24th</strong>! Here&#8217;s the gist: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). The talk will start around 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></p>
+
+
+<div style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">Come join us on&nbsp;<strong>October 24th. &nbsp;</strong>We are having an out of town guest from <a href="http://www.riotgames.com/">Riot Games</a> come to present about scaling an online game to millions of users!</div>
+
+
+<p><p />
+<h2 style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">Massively Scaling to Millions of Players: A League of Legends Story</h2>
+<h3 style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><span style="font-family: Arial, Helvetica, sans-serif; line-height: normal;">By:</span><span style="font-family: verdana, arial, helvetica, sans-serif;"><span style="line-height: 18px;">&nbsp;</span></span><span style="font-family: arial, sans-serif; line-height: normal; color: #222222;">Scott Delap</span></h3>
+<blockquote class="posterous_medium_quote">
+<p>In this talk, we will cover the challenges and lessons-learned of scaling and operating the PvP.net Platform that supports millions of League of Legends global players daily.</p>
+<p>In addition to covering software architecture and design choices in building PvP.net, we will cover the often-overlooked (in the race to market) aspects of monitoring, deployment, analytics, testing and automation.</p>
+</blockquote>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><strong>About Scott</strong></p>
+<p><img src="http://phillyemergingtech.com/2012/system/pictures/52/thumb/scott.png?1333076381" alt="Scott  Delap, Scalability Architect, Riot Games" style="float: left; padding: 5px;" />Scott Delap is a scalability architect at Riot Games, Inc. creator of the award winning online&nbsp;MOBA&nbsp;game League of Legends. He focuses on architecture for large scale, fault tolerant application platforms. Scott is also the former lead Java editor for InfoQ.com. In past lives Scott is the author of the popular Desktop Java Live ebook and a seasoned UI developer. Scott is a frequent presenter at conferences such as JavaOne, QCon and No Fluff Just Stuff. He won a Java Rockstar Award for his 2006 JavaOne presentation on Swing Threading.</p>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">&nbsp;</p>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;"><strong>Hope to see everyone at Museao this month!</strong></p>
+<p style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal;">&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/29/september-2012-comorichweb-workshop-night/">September 2012 - ComoRichWeb Workshop Night!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-29T00:00:00-05:00" pubdate data-updated="true">Aug 29<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>September 26th, 2012 (that&#8217;s a Wednesday)</h2>
+
+
+<p><a href="http://comorichweb.posterous.com">ComoRichWeb</a> will be hosting a <a href="http://comorichwebgroup.github.com/workshop-content/">workshop night</a> with a focus on getting local developers together for training / learning about specific topics.    We will offer 3 tracks from local professionals, with two sessions each lasting  30-45 minutes, allowing attendees to attend 2.</p>
+
+
+<p><a href="http://comorichwebgroup.github.com/workshop-content/">Workshop Details</a></p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/08/09/august-2012-getting-started-with-django-and-l/">August 2012: Getting Started With Django and Lightning Talks</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-09T00:00:00-05:00" pubdate data-updated="true">Aug 9<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><em>August&#8217;s meetup is on&nbsp;<strong>Wednesday, August 15th</strong>! Here&#8217;s the plan: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></p>
+
+
+<div>Come join us on&nbsp;<strong>August 15th. &nbsp;</strong>Based on our member survey, a lot of people are interested in learning more about Python and Django. &nbsp;Greg Aker is going to stop by and share some tricks in a &#8216;Getting Started with Django&#8217; session.</div>
+
+
+<p><p />
+<h2>Getting started with Django</h2>
+<h3>By:&nbsp;<span style="color: #222222; font-family: arial, sans-serif;">Greg Aker</span></h3>
+<blockquote><span style="color: #222222; font-family: arial, sans-serif;">Django is Python&rsquo;s &ldquo;Swiss Army Knife&rdquo; web development framework. Let&rsquo;s look at how easy it is to get up and running, be productive and have fun developing complex web applications!</span></blockquote>
+<p><strong>About Greg</strong></p>
+<p>By day,&nbsp;<a href="http://www.gregaker.net/">Greg Aker</a>&nbsp;(<a href="https://twitter.com/gaker">@gaker</a>)&nbsp;works as&nbsp;<a href="http://www.ngenworks.com/team/greg-aker/" title="Chief Code Thrasher">Chief Code Thrasher</a>&nbsp;at&nbsp;<a href="http://www.ngenworks.com/" title="nGen Works">nGen Works</a>&nbsp;building awesome things in&nbsp;<a href="https://www.djangoproject.com/" title="Django">Django</a>. He also slings the terminal as a systems administrator at&nbsp;<a href="http://www.enginehosting.com/" title="EngineHosting">EngineHosting</a>.&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Lightning Talks</h2>
+<h3>By: ???</h3>
+<p>Come by and do a short presentation on anything you are interested on. &nbsp;Have a new tool or technology that you have been using and want to show off? &nbsp;Know some cool text editor tricks that you want to share? &nbsp;Take the stage and present it. &nbsp;We assume lightning talks will be &lt;= 5 minutes.</p>
+<p><strong>Hope to see everyone at Museao this month!</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/07/06/july-2012-capistrano-and-sinatra/">July 2012 - Capistrano and Sinatra</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-06T00:00:00-05:00" pubdate data-updated="true">Jul 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><div><em>July&#8217;s meetup is on&nbsp;<strong>Wednesday, July 18th</strong>! Here&#8217;s the deal: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></div>
+
+
+<p><p />
+<div>Come join us on <strong>July 18th </strong>as two of the ComoRichWeb organizers share their experience with some great Ruby tools and libraries!</div>
+<p />
+<h2>Using Capistrano to Deploy Anything</h2>
+<h3>By: James Carr</h3>
+<blockquote><span style="color: #222222; font-family: arial, sans-serif;">Still struggling FTP&#8217;ing content out to your servers? rsync have you down? Stop wasting your time and come hear about how you can use Capistrano to deploy anything to any server you have ssh access to with zero downtime, regardless whether your app is written in PHP, Rails, or Node.js. I&rsquo;ve give an overview of Capistrano, the deployment lifecycle, and demonstrate deploying (and rolling back) changes on a live site. I&rsquo;ll also briefly touch upon using Jenkins to deploy using capistrano.&nbsp;</span></blockquote>
+<p><strong>About James</strong></p>
+<p><a href="https://twitter.com/jamescarr">James Carr</a> is a local developer who works works on JVM based projects&nbsp;at Carfax by day and hacks on ruby and node.js projects at night. He&rsquo;s&nbsp;an active open source contributor and passionate about enabling&nbsp;software development communities.</p>
+<h2>Sinatra: The Little Not-Framework That Could</h2>
+<h3>By: Clint Shryock</h3>
+<blockquote><span style="color: #222222; font-family: arial, sans-serif;">Sinatra is a well known DSL for building websites, web services, and web applications in Ruby. At just around 2,000 lines of code, it&rsquo;s the smallest, most versatile non-framework out there. In this session I&rsquo;ll give you a basic intro on working with Sinatra (including a quick intro to Rack), show some useful features, and probably screw up some live coding.</span></blockquote>
+<p><strong>About Clint</strong></p>
+<p><span style="color: #222222; font-family: arial, sans-serif;"><a href="https://twitter.com/ctshryock">Clint Shryock</a> is a Columbia native who currently telecommutes as a software engineer for Cramer Development in Iowa City, IA. He works in Ruby/Rails and PHP and has been writing web apps professionally since 2004. At night he gallivants between Ruby, Cocoa, and Riak hacking.</span><br style="color: #222222; font-family: arial, sans-serif;" /></p>
+<p><strong>Hope to see everyone at Museao this month!</strong></p>
+<p>&nbsp;</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/06/07/june-2012-startup-qampa-and-chrome-developer/">June 2012 - Startup Q & a and Chrome Developer Tools!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-07T00:00:00-05:00" pubdate data-updated="true">Jun 7<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><div><em> Junes&#8217;s meetup is on <strong>Wednesday, June 20th</strong>!  Here&#8217;s the deal: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></div>
+
+
+<p><p />
+<h2>DevTools, Part II</h2>
+<h3>By: Brian Grinstead</h3>
+<blockquote class="posterous_medium_quote">If you are doing any web development &ndash; learning and using the browser based developer tools will make your life easier. Don&rsquo;t worry if you missed Part I (back in November), we&rsquo;ll hit the highlights before digging further  into script debugging, web design in the browser, and some of the new features available in both Chrome and Chrome nightly.</blockquote>
+<p><strong>About Brian</strong></p>
+<p><a href="http://briangrinstead.com">Brian Grinstead</a> (<a href="http://twitter.com/bgrins">@bgrins</a>) is a web developer who works on open source projects, like his <a href="http://bgrins.github.com/spectrum/">JavaScript Colorpicker</a> (also <a href="http://trac.webkit.org/browser/trunk/Source/WebCore/inspector/front-end/Spectrum.js">in WebKit</a>), <a href="http://bgrins.github.com/filereader.js/">FileReader.js</a>, <a href="https://github.com/bgrins/javascript-astar">javascript-astar</a>, <a href="http://mothereffinganimatedgif.com">mothereffinganimatedgif</a>, and <a href="http://instantsprite.com/">Instant Sprite</a>. Brian works locally on <a href="http://foliotek.com/presentation">Foliotek Presentation</a>.</p>
+<h2>Startup Q &amp; A</h2>
+<h3>By: Brent Beshore and Brant Bukowsky</h3>
+<blockquote class="posterous_medium_quote">We&rsquo;ll have a Q &amp; A session with Brent Beshore and Brant Bukowsky. For those of you who don&rsquo;t know, Brent and Brant are two major entrepreneurs from the local area and have started several successful area companies. Come on out and bring whatever questions you have on what it takes to get a successful startup off the ground.</blockquote>
+<p><strong>About Brent</strong></p>
+<p>Brent owns AdVentures, which invests in communications-based companies. These investments range from ad agencies and media properties to a software development firm and a film company. There are currently 13 active investments and AdVentures was recently ranked #28 on the 2011 Inc. 500.</p>
+<p>Brent is involved in the national startup scene, serving on the advisory board of Startup Missouri and recently joined Gen Y Capital Partners, a $30 million venture capital tech fund based out of NYC, as a Venture Partner.</p>
+<p>Brent is the founder of the League of Innovators, which is a 16,000 sq. ft. co-working space and entrepreneurial incubator and involved in a number of non-profits as a board member including the Heart of Missouri United Way and the Community Foundation of Central Missouri. Brent&rsquo;s efforts in launching the Joplin, MO Tornado Recovery Facebook page and raising $2 million for the relief efforts garnered him a 2011 VH1 Do Something Award nomination.</p>
+<p><strong>About Brant</strong></p>
+<p>Brant and his brother started their first company while pursuing education degrees at Mizzou and have gone on to start over a half dozen companies. Their first company, ShowMe Tickets, sold event tickets and was acquired in 2005 by a company that was later acquired by Ticketmaster. LakeRentals.com, an online vacation rental company, started that same year was acquired by The Weather Channel 18 months later. Their current company, Veterans United Home Loans, is a nationwide mortgage bank they started in 2002. It currently employs over 800 people.</p>
+<p>The brothers have received the Inc 500 award, for being one of the fastest growing private companies in the US, for 3 separate companies.  Brant was selected as a mentor for the Clinton Foundation&rsquo;s Emerging Entrepreneur program where he mentored small businesses in Harlem, NY. He has been doing online marketing since 1999 and has spoken at national conferences regarding online marketing.</p>
+<p>He is passionate supporter of entrepreneurship and lives in Columbia, MO with his wife and 2 boys.</p>
+<p><strong>Hope to see everyone at Museao this month!</strong></p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/05/23/columbia-mo-hackathon-hack-for-good/">CoMO Hackathon - Hack for Good</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-05-23T00:00:00-05:00" pubdate data-updated="true">May 23<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><em>At CoMORichWeb we love local tech events, so we wanted to share this:</em></p>
+
+
+<p>The League of Innovators will be hosting an event called Hack for Good on June 22nd, a 12-hour hackathon focused on projects that benefit the community!   The event will be on<strong> June 22, 6pm-6am at Museao</strong>.  There will be a few creative community projects for people to choose from or if people would prefer, they can work on their own projects and hang out with other developers. &nbsp;Tickets will be $15 to buy food and copious amounts of caffeine.</p>
+
+
+<p>All profits will be donated to the Heart of Missouri United Way.</p>
+
+
+<p>RSVP/more info through: <a href="http://hackforgoodcomo.eventbrite.com/">http://hackforgoodcomo.eventbrite.com/</a></p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/04/18/may-meetup-phonegap-and-task-queues/">May Meetup - PhoneGap and Task Queues!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-18T00:00:00-05:00" pubdate data-updated="true">Apr 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><div><em> May&#8217;s meetup is on <strong>Wednesday, May 16th</strong>!  Here&#8217;s the scoop: it will be hosted at our usual Museao location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></div>
+
+
+<p><p />
+<p />
+<h2>Building Touch Apps with Web Technologies</h2>
+<h3>By: Luke Daffron</h3>
+<p>About the talk:</p>
+<blockquote class="posterous_medium_quote">If you are already familiar with HTML5, Javascript, and JQuery &ndash; you have most of the tools you need to write &ldquo;native&rdquo; apps for iOS and Android.  If nothing else, it can help you build a really fast cross-platform prototype or V1.   I&rsquo;ll take you through how I developed an app with <strong>JQuery Mobile</strong> and <strong>PhoneGap Build</strong>, and share some tips along the way.</blockquote>
+<p><p /></p>
+<h2>Task Queues in Python, Ruby and More!</h2>
+<h3>By: Bryan Helmig</h3>
+<p>About the talk:</p>
+<blockquote class="posterous_medium_quote">Task Queues are efficient ways to perform important things in the background instead of introducing delays for the user. Primarily, we&rsquo;ll cover identifying use cases and architecture, but we&rsquo;ll also dig down into Python&rsquo;s Celery, Ruby&rsquo;s Resque, and touch on some simple &ldquo;home grown&rdquo; queue systems.</blockquote>
+<p>&nbsp;</p>
+<h2>About Our Speakers</h2>
+<p>Luke:</p>
+<p><a href="http://lukedaffron.foliotek.me">Luke Daffron</a>&nbsp;works locally for&nbsp;<a href="http://foliotek.com/">Foliotek, Inc</a>&nbsp;and can be found as &ldquo;LJD&rdquo; on the AppStore. He moved to Columbia from St. Joseph to go to MU, and was hired by LANIT Consulting after college. He survived the company&rsquo;s &ldquo;consulting era&rdquo; to help launch and support their namesake project. He&rsquo;s had a couple side projects along the way (Choosik.com first, now&nbsp;<a href="http://wiffletracker.appspot.com/">Big League Wiffle Ball</a>&nbsp;mobile apps). He&rsquo;s a man-of-many-hats &ndash; splitting time between programming, usability work/testing, analytics/seo/split testing, project planning, and mentoring.</p>
+<p>Bryan:</p>
+<p><a href="http://bryanhelmig.com">Bryan Helmig</a> is a Missouri native and self taught hacker. By day he is the only Python/Django dev at Veterans United and by night he wrestles the backend that makes <a href="http://zapier.com/">Zapier</a> go.  You can also find him on twitter as <a href="http://twitter.com/bryanhelmig">@bryanhelmig</a>.</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/27/april-meetup-newsy-and-pushbutton-web/">April Meetup - Newsy and Pushbutton Web</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-27T00:00:00-05:00" pubdate data-updated="true">Mar 27<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><div>
+<div><em>April&#8217;s meetup is on&nbsp;<strong>Wednesday, April 18th</strong>! &nbsp;You know the drill: it&nbsp;will be hosted at our usual&nbsp;Museao&nbsp;location (<a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map">directions</a>). &nbsp;Talks start at 6:00pm but come by around 5:30pm or so if you want to hang out beforehand.</em></div>
+<p />
+<div>
+<div><span style="text-decoration: underline; font-size: x-large;">Newsy</span></div>
+<div>Presented By:&nbsp;<a href="https://twitter.com/#!/tyten">Tyten Teegarden</a>&nbsp;and <a href="http://twitter.com/#!/arclite">Geoff Pado</a></div>
+<p />
+<div>Summary:</div>
+<p />
+<blockquote>
+<div>Newsy develops eight apps across eight platforms. While these are cool, cooler still are the unseen apps being developed to be used by the people who produce our videos.</div>
+</blockquote>
+</div>
+</div>
+
+
+<div>Tyten and Geoff will stop by to talk a little bit about Newsy&#8217;s different mobile apps and then go into detail about some pretty neat stuff they&#8217;ve been working on for internal use at Newsy. There are web and iOS components to these projects and his partner Geoff will showcase the web side while Tyten shows host the iOS app ties into it.</div>
+
+
+<p><p />
+<div>About the speaker:</div>
+<p><strong>Tyten Teegarden</strong>&nbsp;is a Missouri native who works as Mobile App Development Manager at Newsy while moonlighting operating his own LLC. He is most proficient in iOS but has some experience in web/database work as well as Android and Windows Phone.</p>
+<p><span style="text-decoration: underline; font-size: x-large;">Pushbutton Web</span><br />Presented By:&nbsp;<a href="http://www.ryannedolan.info/">Ryanne Dolan</a></p>
+<p><span style="">Summary:</span></p>
+<blockquote>
+<p><span style="">Pushbutton Web&nbsp;</span><span style="">is like SMS messages for your webpages. It enables content providers to</span><span style="">&nbsp;</span><span style="">send realtime push-notifications directly to browsers or mobile apps&nbsp;</span><span style="">using HTTP.</span></p>
+</blockquote>
+<p>About the speaker:</p>
+<p><span style="color: #333333; font-family: arial, sans-serif; line-height: 18px; text-align: left;"><strong>Ryanne Dolan</strong></span>&nbsp;is a CS lecturer at the University of Missouri. &nbsp;His courses can be found on his site:&nbsp;<a href="http://www.ryannedolan.info/teaching"><a href="http://www.ryannedolan.info/teaching">http://www.ryannedolan.info/teaching</a></a>.</p>
+<p />
+<p />
+<p>&nbsp;</p></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/07/march-meetup-hadoophbase-and-backbonejs/">March Meetup: Hadoop+HBase and Backbone.js</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-07T00:00:00-06:00" pubdate data-updated="true">Mar 7<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">We have a great meetup planned this month for&nbsp;</span><strong style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">Wednesday, March 21st</strong><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">! &nbsp;This will be hosted at our usual&nbsp;</span><strong style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">Museao</strong><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">&nbsp;location (</span><a href="http://www.google.com/maps?q=3500+Buttonwood+Drive,+Columbia,+MO&amp;sll=38.913421,-92.330890&amp;hl=en&amp;sspn=0.006295,0.006295&amp;ie=UTF8&amp;hq=&amp;hnear=3500+Buttonwood+Dr,+Columbia,+Boone,+Missouri+65201&amp;view=map" style="color: #660000; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">directions</a><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">). &nbsp;Talks start at 6:00pm but come by around 5:30pm or so if you would like to socialize beforehand.</span></p>
+
+
+<p><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;"><strong style="color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: normal; background-color: #ffffff; font-size: medium; text-decoration: underline;">High Performance Messaging with RabbitMQ</strong></span></p>
+
+
+<p>James Carr will be presenting on rabbitMQ, messaging patterns, and why using databases for messaging generally sucks.&nbsp;</p>
+
+
+<p><span style="text-decoration: line-through;"><span style="text-decoration: underline;"><span style="font-size: medium;"><strong>Haddop and HBase for Managing Big Data</strong></span></span></span></p>
+
+
+<p><span style="text-decoration: line-through;">First up we have John Riley, Principal Consultant of <a href="http://www.inciteretail.com/">Incite Retail</a>&nbsp;who will be sharing with us his experiences with<strong> Haddop and HBase for Managing Big Data</strong>:</span></p>
+
+
+<blockquote>
+<p><span style="text-decoration: line-through;">Big Data quite simply swamps Traditional database &amp; Data Warehouse architectures. In the Big Data age now breaking upon us, the sheer volume, velocity, and variety of information content now operant in the application space required a new class of technologies and approaches. &nbsp;Hadoop &amp; Hbase have arrived, been put to long use and tested under the most stringent conditions by major social media &amp; retail concerns.</span></p>
+</blockquote>
+
+
+<p><span style="text-decoration: line-through;"><strong>John Riley</strong> brings decades of engineering and consulting experience in aerospace, manufacturing, healthcare, biotechnology, and finance from engagements in the US and Europe.  Prior to Incite Retail, John worked at Elan Pharmaceuticals developing work flow and data processing pipelines on large datasets. Currently, John provides thought leadership in the consulting practice focusing on data transformation, modeling, and serialization of data into Hadoop, HBase, and Hive.</span></p>
+
+
+<p><span style="text-decoration: underline;"><span style="font-size: medium;"><strong>Backbone.js at Zapier</strong></span></span></p>
+
+
+<p>And then after all the heavy hitting Hadoop and Big Data talk Mike Knoop will give a bit of a lighter talk on <strong>Backbone.js at Zapier</strong>:</p>
+
+
+<blockquote class="posterous_medium_quote">Backbone.js is a javascript micro-framework which really propels the idea of &ldquo;web apps&rdquo; instead of &ldquo;web pages&rdquo;. At Zapier, we are using Backbone and similar technologies to write a fast, modular, &nbsp;and complex frontend system which our customers use to create and interact with Zaps. Our frontend is constantly challenged to convey the complex notion of linking business web applications together using APIs &#8211; and we are using Backbone to achieve that goal. Other talking points include Backbone SEO, Backbone performance, Backbone architecture guidelines and using Backbone with RequireJS.</blockquote>
+
+
+<p><strong>Mike Knoop</strong> is a Mechanical Engineering graduate student at the University of Missouri. From Wildwood, Missouri, he moonlights as a co-founder of Zapier hacking on Backbone, Cofeescript, and Sass. In past lives he has been seen as a Facebook Forum Moderator, writer for InsideFacebook.com, and Z80 assembly programmer for the TI-83/84 calculator series.</p>
+
+
+<p>&nbsp;</p>
+
+
+<p><strong style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">Come join us on the 21st!</strong><span style="color: #333333; font-family: Georgia, serif; font-size: 14px; line-height: 21px; background-color: #eeeeee;">&nbsp;We will have a good mix of topics and it is a great place to meet up with web developers, designers, and entrepreneurs in Columbia.</span></p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/3/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/08/09/august-21st/">August 21st, 2013 - Raspberry Pi, Python, and Planetary Automation</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/07/11/july-17th/">July 17th, 2013 - Application monitoring and Objective C</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/05/june-19th/">June 19th, 2013 - SEO friendly single page web applications</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/08/may-15th/">May 15th, 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/04/10/april-17th/">April 17th, 2013 - Cloud Automation and Grails</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Clint, Brian, or James -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
