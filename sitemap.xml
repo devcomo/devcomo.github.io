@@ -1,167 +1,199 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://devcomo.com/blog/2011/06/02/june-22nd-meetup-clojure-and-openmissouri/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2011/07/18/next-meetup-july-27th/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2011/08/02/startup-weekend-is-coming-to-columbia-mo/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2011/08/17/next-meetup-august-24th-at-museao/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2011/09/01/new-vimeo-channel/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2011/09/10/next-meetup-nosql-smackdown-september-28th/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2011/09/14/new-group-hackshackersire/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
         <loc>
-            http://devcomo.com/blog/2011/10/12/next-meetup-october-19th-startup-weekend-and/
+            http://devcomo.github.io/blog/2011/06/02/june-22nd-meetup-clojure-and-openmissouri/
         </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2011/11/02/november-meetup-web-developer-tools-and-c/</loc>
+        <loc>http://devcomo.github.io/blog/2011/07/18/next-meetup-july-27th/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://devcomo.com/blog/2012/01/11/january-meetup-twitter-bootstrap-and-pyrocms/
+            http://devcomo.github.io/blog/2011/08/02/startup-weekend-is-coming-to-columbia-mo/
         </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2012/02/03/february-meetup/</loc>
+        <loc>http://devcomo.github.io/blog/2011/08/17/next-meetup-august-24th-at-museao/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2012/03/07/march-meetup-hadoophbase-and-backbonejs/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2012/03/27/april-meetup-newsy-and-pushbutton-web/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2012/04/18/may-meetup-phonegap-and-task-queues/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2012/05/23/columbia-mo-hackathon-hack-for-good/</loc>
+        <loc>http://devcomo.github.io/blog/2011/09/01/new-vimeo-channel/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://devcomo.com/blog/2012/06/07/june-2012-startup-qampa-and-chrome-developer/
+            http://devcomo.github.io/blog/2011/09/10/next-meetup-nosql-smackdown-september-28th/
         </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2012/07/06/july-2012-capistrano-and-sinatra/</loc>
+        <loc>http://devcomo.github.io/blog/2011/09/14/new-group-hackshackersire/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://devcomo.com/blog/2012/08/09/august-2012-getting-started-with-django-and-l/
-        </loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://devcomo.com/blog/2012/08/29/september-2012-comorichweb-workshop-night/</loc>
-        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://devcomo.com/blog/2012/10/17/october-2012-massively-scaling-to-millions-of/
+            http://devcomo.github.io/blog/2011/10/12/next-meetup-october-19th-startup-weekend-and/
         </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://devcomo.com/blog/2012/11/12/november-2012-stripe-capture-the-flag-and-rub/
+            http://devcomo.github.io/blog/2011/11/02/november-meetup-web-developer-tools-and-c/
         </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://devcomo.com/blog/2012/11/27/december-2012-zapier-developer-platform-and-b/
+            http://devcomo.github.io/blog/2012/01/11/january-meetup-twitter-bootstrap-and-pyrocms/
+        </loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2012/02/03/february-meetup/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://devcomo.github.io/blog/2012/03/07/march-meetup-hadoophbase-and-backbonejs/
+        </loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2012/03/27/april-meetup-newsy-and-pushbutton-web/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2012/04/18/may-meetup-phonegap-and-task-queues/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2012/05/23/columbia-mo-hackathon-hack-for-good/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://devcomo.github.io/blog/2012/06/07/june-2012-startup-qampa-and-chrome-developer/
+        </loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2012/07/06/july-2012-capistrano-and-sinatra/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://devcomo.github.io/blog/2012/08/09/august-2012-getting-started-with-django-and-l/
         </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://devcomo.com/blog/2013/01/01/january-2013-refactoring-and-local-startup-bo/
+            http://devcomo.github.io/blog/2012/08/29/september-2012-comorichweb-workshop-night/
         </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2013/01/16/january-2013-notice-anything-different/</loc>
+        <loc>
+            http://devcomo.github.io/blog/2012/10/17/october-2012-massively-scaling-to-millions-of/
+        </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2013/02/08/february-2013-heroku-and-vagrant/</loc>
+        <loc>
+            http://devcomo.github.io/blog/2012/11/12/november-2012-stripe-capture-the-flag-and-rub/
+        </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2013/03/14/march-20th/</loc>
+        <loc>
+            http://devcomo.github.io/blog/2012/11/27/december-2012-zapier-developer-platform-and-b/
+        </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2013/04/10/april-17th/</loc>
+        <loc>
+            http://devcomo.github.io/blog/2013/01/01/january-2013-refactoring-and-local-startup-bo/
+        </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2013/05/08/may-15th/</loc>
+        <loc>
+            http://devcomo.github.io/blog/2013/01/16/january-2013-notice-anything-different/
+        </loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2013/06/05/june-19th/</loc>
+        <loc>http://devcomo.github.io/blog/2013/02/08/february-2013-heroku-and-vagrant/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2013/07/11/july-17th/</loc>
+        <loc>http://devcomo.github.io/blog/2013/03/14/march-20th/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/2013/08/09/august-21st/</loc>
+        <loc>http://devcomo.github.io/blog/2013/04/10/april-17th/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2013/05/08/may-15th/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2013/06/05/june-19th/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2013/07/11/july-17th/</loc>
+        <lastmod>2013-08-09T14:23:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2013/08/09/august-21st/</loc>
         <lastmod>2013-08-18T15:04:13-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/about/</loc>
+        <loc>
+            http://devcomo.github.io/blog/2013/09/17/september-18th-2013-repeatable-software-deployments-with-docker/
+        </loc>
+        <lastmod>2013-09-25T16:14:28-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2013/09/25/october-16th/</loc>
+        <lastmod>2013-09-25T16:32:51-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2013/11/04/november-20th/</loc>
+        <lastmod>2013-12-18T11:16:22-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/blog/2013/12/18/january-15th-2014/</loc>
+        <lastmod>2013-12-18T11:32:45-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://devcomo.github.io/about/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/blog/archives/</loc>
-        <lastmod>2013-08-18T15:04:13-05:00</lastmod>
+        <loc>http://devcomo.github.io/blog/archives/</loc>
+        <lastmod>2013-12-18T11:32:45-06:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/community/</loc>
+        <loc>http://devcomo.github.io/community/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/</loc>
-        <lastmod>2013-08-18T15:04:13-05:00</lastmod>
+        <loc>http://devcomo.github.io/</loc>
+        <lastmod>2013-12-18T11:32:45-06:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/robots.txt</loc>
+        <loc>http://devcomo.github.io/robots.txt</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
     <url>
-        <loc>http://devcomo.com/sponsoring/</loc>
+        <loc>http://devcomo.github.io/sponsoring/</loc>
         <lastmod>2013-08-09T14:23:02-05:00</lastmod>
     </url>
 </urlset>
