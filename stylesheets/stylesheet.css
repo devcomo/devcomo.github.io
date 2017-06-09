@@ -225,7 +225,7 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#forkme_banner {
+#join_us_banner {
   display: block;
   position: absolute;
   top:0;
@@ -233,7 +233,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 20px 10px 50px;
   color: #fff;
-  background: url('../images/blacktocat.svg') #0090ff no-repeat 8% 50%;
+  background: url('../images/meetup-logo.svg') #0090ff no-repeat 8% 50%;
   background-size: 25px;
   font-weight: 700;
   border: none;
@@ -269,23 +269,6 @@ header {
   background: none;
 }
 
-.downloads {
-  display: block;
-  padding-left: 50px;
-  color: #f2f2f2;
-  position: relative;
-  height: 70px;
-  background: url(../images/download.svg) no-repeat center left;
-  background-size: 25px 20px;
-}
-
-.downloads a {
-  margin-right: 20px;
-}
-.downloads a:hover {
-  text-decoration: underline solid #fff;
-}
-
 #main_content {
   padding-top: 40px;
 }
@@ -317,10 +300,6 @@ Small Device Styles
 @media screen and (max-width: 480px) {
   body {
     font-size: 13px;
-  }
-
-  .downloads {
-    display: none;
   }
 
   .outer {
