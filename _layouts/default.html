@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="referrer" content="same-origin">
+        <meta name="description" content="{{ page.description | strip_html }}">
+
+        <link rel="canonical" href="{{ page.url | canonical }}" />
+        <title>{{ page.title }}</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Font awesome stuff -->
+        <script src="https://use.fontawesome.com/6bf45d13e7.js"></script>
+
+        <!-- DevComo CSS -->
+        <link rel="stylesheet" href="/stylesheets/main.css">
+
+        <!-- OpenGraph data -->
+        {% if page.path == 'index.html' %}
+            <meta property="og:type" content="website" />
+        {% else %}
+            <meta property="og:type" content="article" />
+            <meta property="og:aricle:author" content="Nabil Alsharif" />
+            <meta property="og:article:section" content="Technology" />
+            <meta property="og:article:published_time" content="{{ page.date }}" />
+        {% endif %}
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:url"   content="{{ page.url | canonical }}" />
+
+        <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@devcomo" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        <meta name="twitter:description" content="{{ page.description | strip_html }}" />
+    </head>
+    <body>
+
+        <div class="container" id="main-container">
+            {{content}}
+
+            <!-- FOOTER  -->
+            <footer class="inner">
+                <div>
+                    <p><center><a class="slack-badge" href="https://devcomo-slack-invite.herokuapp.com/"><img alt="Slackin!" src="https://devcomo-slack-invite.herokuapp.com/badge.svg"/></a></center></p>
+                <p class="copyright"></p>
+                </div>
+                <div>
+                    <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>

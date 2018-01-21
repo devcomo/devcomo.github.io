@@ -1,0 +1,37 @@
+---
+#Front matter so Jekylle with proccess this file
+---
+
+#header {
+    background: url('/images/main_header_bg.jpeg');
+    background-size: cover;
+    text-align: center;
+    min-height: 20em;
+}
+
+#header-content {
+    color: white;
+    text-align: center;
+    margin: 3em auto;
+    font-size: 4em;
+    text-shadow: #333 2px 2px;
+}
+
+#cta-row {
+    .cta {
+        a.cta-link {
+            color: black;
+
+            .cta-icon {
+                margin: 1em auto;
+                text-align: center;
+            }
+
+            .cta-text {
+                font-size: 2.5em;
+                margin: 1em auto;
+                text-align: center;
+            }
+        }
+    }
+}
