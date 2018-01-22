@@ -35,3 +35,11 @@
         }
     }
 }
+
+#where-row {
+  .where-address-line {
+    display: block;
+    &.redi {
+      font-weight: bold;
+  }
+}
