@@ -1,5 +1,8 @@
-codeofconduct
-=============
+---
+layout: default
+title: DevComo's Code of Conduct
+description: DevComo's Code of Conduct
+---
 
 # DevComo's Code of Conduct
 
