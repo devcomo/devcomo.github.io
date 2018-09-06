@@ -44,3 +44,12 @@
     }
   }
 }
+
+#where-row {
+    .where-twitter-line {
+      display: block;
+      &.redi {
+        font-weight: bold;
+      }
+    }
+  }
