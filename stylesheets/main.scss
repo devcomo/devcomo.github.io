@@ -43,13 +43,10 @@
       font-weight: bold;
     }
   }
-}
-
-#where-row {
-    .where-twitter-line {
-      display: block;
-      &.redi {
-        font-weight: bold;
-      }
+  .where-twitter-line {
+        display: block;
+        &.redi {
+          font-weight: bold;
+        }
     }
-  }
+}
