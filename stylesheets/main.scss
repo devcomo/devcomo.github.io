@@ -37,16 +37,18 @@
 }
 
 #where-row {
-  .where-address-line {
-    display: block;
-    &.redi {
-      font-weight: bold;
-    }
-  }
-  .where-twitter-line {
+    .where-block {
         display: block;
-        &.redi {
-          font-weight: bold;
+        margin-bottom: 1em;
+        .where-address-line {
+            display: block;
+            &.redi {
+              font-weight: bold;
+            }
+        }
+        .online-link {
+            display: inline-block;
+            margin: 0.25em;
         }
     }
 }
