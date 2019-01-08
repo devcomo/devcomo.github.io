@@ -2,6 +2,9 @@
 #Front matter so Jekylle with proccess this file
 ---
 
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+
 #header {
     background: url('/images/main_header_bg.jpeg');
     background-size: cover;
@@ -13,8 +16,15 @@
     color: white;
     text-align: center;
     margin: 3em auto;
-    font-size: 4em;
+    font-size: 1em;
     text-shadow: #333 2px 2px;
+    @media (min-width: $breakpoint-sm) {
+        font-size: 2em;
+    }
+
+    @media (min-width: $breakpoint-md) {
+        font-size: 4em;
+    }
 }
 
 #cta-row {
@@ -23,14 +33,34 @@
             color: black;
 
             .cta-icon {
-                margin: 1em auto;
                 text-align: center;
+                margin: 0.25em auto;
+
+                @media (min-width: $breakpoint-sm) {
+                    margin: 0.5em auto;
+                }
+
+                @media (min-width: $breakpoint-md) {
+                    font-size: 1em auto;
+                }
             }
 
             .cta-text {
-                font-size: 2.5em;
-                margin: 1em auto;
+                font-size: 1.5em;
+                margin: 0.25em auto;
                 text-align: center;
+
+                @media (min-width: $breakpoint-md) {
+                    font-size: 2em;
+                }
+
+                @media (min-width: $breakpoint-sm) {
+                    margin: 0.5em auto;
+                }
+
+                @media (min-width: $breakpoint-md) {
+                    font-size: 1em auto;
+                }
             }
         }
     }
@@ -51,4 +81,9 @@
             margin: 0.25em;
         }
     }
+}
+
+#footer {
+    border-top: solid black 1px;
+    text-align: center;
 }
